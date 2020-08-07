@@ -369,7 +369,7 @@ let init = app => {
     );
 
   Native.Tray.make(
-    ~title=`Image(Environment.getAssetPath("outrun-logo.png")),
+    ~imagePath=Environment.getAssetPath("outrun-logo.png"),
     (),
   )
   |> ignore;
