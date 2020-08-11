@@ -13,7 +13,7 @@
         image_cocoa
         shell shell_cocoa shell_gtk shell_win32
         locale locale_cocoa locale_win32
-        tray tray_cocoa
+        tray
         utilities
         ReveryAppDelegate ReveryAppDelegate_func
         ReveryProgressBar)
