@@ -12,7 +12,7 @@ jobs:
           node-version: 12
       - uses: actions/checkout@v2
       - name: Install esy
-        run: npm install -g esy
+        run: npm install -g @esy-nightly/esy
       - name: Setup Git to push back
         run: |
           git remote set-url --push origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
@@ -83,7 +83,7 @@ jobs:
           node-version: 12
       - uses: actions/checkout@v2
       - name: Install esy
-        run: npm install -g esy
+        run: npm install -g @esy-nightly/esy
       - run: brew install coreutils
       - name: Solve doc dependencies
         run: esy @doc install
@@ -177,7 +177,7 @@ jobs:
           node-version: 12
       - uses: actions/checkout@v2
       - name: Install esy
-        run: npm install -g esy
+        run: npm install -g @esy-nightly/esy
       - name: Install native dependencies on ubuntu-latest
         if: matrix.os == 'ubuntu-latest'
         run: |
