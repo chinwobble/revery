@@ -64,6 +64,7 @@
     "@glennsl/timber": "^1.2.0"
   },
   "resolutions": {
+    "@esy-ocaml/reason": "github:facebook/reason:reason.json#6017d6dd930f4989177c3f7c3c20cffbaabaa49a",
     "@opam/conf-pkg-config": "1.2"
   },
   "devDependencies": {
