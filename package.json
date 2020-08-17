@@ -35,7 +35,7 @@
     ]
   },
   "dependencies": {
-    "@esy-ocaml/reason": "github:facebook/reason#6cb30e23a65028c9b7df82fe55867e360ac57679",
+    "@esy-ocaml/reason": "github:facebook/reason:reason.json#6cb30e23a65028c9b7df82fe55867e360ac57679",
     "@opam/bos": "0.2.0",
     "@opam/ctypes": "0.15.1",
     "@opam/dune": ">=1.6.0",
@@ -64,7 +64,7 @@
     "@glennsl/timber": "^1.2.0"
   },
   "resolutions": {
-    "@esy-ocaml/reason": "github:facebook/reason#6cb30e23a65028c9b7df82fe55867e360ac57679",
+    "@esy-ocaml/reason": "github:facebook/reason:reason.json#6cb30e23a65028c9b7df82fe55867e360ac57679",
     "@opam/conf-pkg-config": "1.2"
   },
   "devDependencies": {
